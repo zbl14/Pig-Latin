@@ -6,7 +6,11 @@ Test: "It will add 'way' to the end of a letter that begin with 'a'."
 Code: pigLatin("a");
 Expected Output: "away"
 
-Test2: "It will add 'way' to the end of words that begin with a vowel."
+Test2: "It will return the original text if something other than 'a' is passed in."
+Code: pigLatin("b");
+Expected Output: "b"
+
+Test3: "It will add 'way' to the end of words that begin with a vowel."
 Code: pigLatin("a");
 Expected Output: "away"
 
