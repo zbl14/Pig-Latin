@@ -14,7 +14,7 @@ Test3: "It will add 'way' to the end of letter that begin with a vowel."
 Code: pigLatin("a");
 Expected Output: "away"
 
-Test3: "It will add 'way' to the end of word that begin with a vowel."
+Test4: "It will add 'way' to the end of word that begin with a vowel."
 Code: pigLatin("apple");
 Expected Output: "appleway"
 
