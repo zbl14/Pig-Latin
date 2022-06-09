@@ -10,9 +10,13 @@ Test2: "It will return the original text if something other than 'a' is passed i
 Code: pigLatin("b");
 Expected Output: "b"
 
-Test3: "It will add 'way' to the end of words that begin with a vowel."
+Test3: "It will add 'way' to the end of letter that begin with a vowel."
 Code: pigLatin("a");
 Expected Output: "away"
+
+Test3: "It will add 'way' to the end of word that begin with a vowel."
+Code: pigLatin("apple");
+Expected Output: "appleway"
 
 
 
