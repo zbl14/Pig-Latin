@@ -33,6 +33,11 @@ const text = "quick"
 pigLatin("text");
 Expected Output: ickquay
 
+Test6: "It will give a sentence that each word follow Pig Latin rule reguardless of case"
+Code: 
+const text = "I like to eat apple quickly";
+pigLatin("text");
+Expected Output: Iway ikelay otay eatway appleway icklyquay
 
 
 
