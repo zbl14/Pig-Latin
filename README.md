@@ -40,20 +40,6 @@ pigLatin("text");
 Expected Output: Iway ikelay otay eatway appleway icklyquay
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Pig Latin
 
 #### By Ben Goodrow, Seung Lee, Zhibin Liang
