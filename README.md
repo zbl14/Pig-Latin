@@ -1,23 +1,37 @@
 ## TDD
 
+```sh
 Describe: pigLatin()
+```
+Test1: "It will add 'way' to the end of 'a', return false with otherinput
+Code: 
+const text = "a";
+pigLatin(text);
+Expected Output: away
 
-Test: "It will add 'way' to the end of a letter that begin with 'a'."
-Code: pigLatin("a");
-Expected Output: "away"
+Test2: "It will add 'way' to the end of a word if it start with "a", return false with otherinput
+Code: 
+const text = "apple";
+pigLatin(text);
+Expected Output: appleway
 
-Test2: "It will return the original text if something other than 'a' is passed in."
-Code: pigLatin("b");
-Expected Output: "b"
-
-Test3: "It will add 'way' to the end of letter that begin with a vowel."
-Code: pigLatin("a");
-Expected Output: "away"
+Test3: "It will add 'way' to the end of a word that begin with a vowel."
+Code: 
+const text = "eleven";
+pigLatin(text);
+Expected Output: elevenway
 
 Test4: "It will add 'way' to the end of word that begin with a vowel."
-Code: pigLatin("apple");
-Expected Output: "appleway"
+Code: 
+const text = "apple";
+pigLatin(text);
+Expected Output: appleway
 
+Test5: "It will add 'way' to the end of every word that begin with a vowel in a sentence regardless of case"
+Code: 
+const text = "I like eat apple and pear."
+pigLatin("text");
+Expected Output: Iway like eatway appleway and pear.
 
 
 
