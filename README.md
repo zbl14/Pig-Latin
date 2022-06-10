@@ -21,17 +21,17 @@ const text = "eleven";
 pigLatin(text);
 Expected Output: elevenway
 
-Test4: "It will move the first consonant to the end of the word and add 'ay' to the end, if the word begin with a consonants."
+Test4: "It will move the first consonant to the end of the word and add 'ay' to the end, if the word begin with a consonants"
 Code: 
 const text = "boy";
 pigLatin(text);
 Expected Output: oybay
 
-Test5: "It will add 'way' to the end of every word that begin with a vowel in a sentence regardless of case"
+Test5: "It will move the 'qu' to the end of the word and add 'ay' to the end, if the word begin with 'qu'."
 Code: 
-const text = "I like eat apple and pear."
+const text = "quick"
 pigLatin("text");
-Expected Output: Iway like eatway appleway and pear.
+Expected Output: ickquay
 
 
 

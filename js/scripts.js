@@ -29,16 +29,31 @@
 // };
 
 // Test4
+// function pigLatin(text) {
+//   let vowels = ['a', 'e', 'i', 'o', 'u'];
+//   let newText="";
+//   if (vowels.includes(text.charAt(0))) {
+//     newText = text.concat("way");
+//     return newText;
+//   } else {
+//     newText = text.substring(1).concat(text.charAt(0),"ay");
+//   };
+// return newText
+// }
+
+// Test5
 function pigLatin(text) {
   let vowels = ['a', 'e', 'i', 'o', 'u'];
   let newText="";
   if (vowels.includes(text.charAt(0))) {
     newText = text.concat("way");
-  return newText;
-  } else {
+    return newText;
+  } else if (text.substring(0,2) !== "qu") {
     newText = text.substring(1).concat(text.charAt(0),"ay");
+  } else {
+    newText = text.substring(2).concat(text.slice(0,2),"ay");
   };
-  return newText
+return newText
 }
 
 
