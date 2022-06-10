@@ -9,7 +9,7 @@
 //   return false
 // };
 
-// Describe: pigLatin() Test2
+// Test2
 // function pigLatin(text) {
 //   if (text.charAt(0) === "a") {
 //   let newText = text + "way";
@@ -18,17 +18,28 @@
 //   return false
 // };
 
-// Describe: pigLatin() Test3
+// Test3
+// function pigLatin(text) {
+//   let vowels = ['a', 'e', 'i', 'o', 'u'];
+//   if (vowels.includes(text.charAt(0))) {
+//   let newText = text + "way";
+//   return newText;
+//   };
+//   return false
+// };
 
+// Test4
 function pigLatin(text) {
   let vowels = ['a', 'e', 'i', 'o', 'u'];
+  let newText="";
   if (vowels.includes(text.charAt(0))) {
-  let newText = text + "way";
+    newText = text.concat("way");
   return newText;
+  } else {
+    newText = text.substring(1).concat(text.charAt(0),"ay");
   };
-  return false
-};
-
+  return newText
+}
 
 
 

@@ -21,11 +21,11 @@ const text = "eleven";
 pigLatin(text);
 Expected Output: elevenway
 
-Test4: "It will add 'way' to the end of word that begin with a vowel."
+Test4: "It will move the first consonant to the end of the word and add 'ay' to the end, if the word begin with a consonants."
 Code: 
-const text = "apple";
+const text = "boy";
 pigLatin(text);
-Expected Output: appleway
+Expected Output: oybay
 
 Test5: "It will add 'way' to the end of every word that begin with a vowel in a sentence regardless of case"
 Code: 
